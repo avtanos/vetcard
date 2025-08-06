@@ -1,0 +1,142 @@
+.pet-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.pet-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border-color: #667eea;
+}
+
+.pet-image {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.pet-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pet-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.pet-info {
+  padding: 1.5rem;
+}
+
+.pet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.pet-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.pet-species {
+  font-size: 0.9rem;
+  color: #666;
+  background: #f8f9fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pet-details {
+  margin-bottom: 1.5rem;
+}
+
+.pet-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.pet-detail:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.detail-label {
+  font-weight: 500;
+  color: #666;
+  font-size: 0.9rem;
+  min-width: 120px;
+}
+
+.detail-value {
+  color: #333;
+  text-align: right;
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.detail-value.notes {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.pet-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.pet-actions .btn {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .pet-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .pet-species {
+    align-self: flex-start;
+  }
+
+  .pet-detail {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .detail-value {
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .pet-actions {
+    flex-direction: column;
+  }
+} 

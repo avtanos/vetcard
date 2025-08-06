@@ -1,0 +1,28 @@
+{
+  "name": "vetcard",
+  "version": "1.0.0",
+  "description": "Digital medical card and AI‑assistant for pet health management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\" \"npm run dev:node\"",
+    "dev:client": "cd client && npm start",
+    "dev:server": "cd server && python manage.py runserver",
+    "dev:node": "cd node-services && npm run dev",
+    "install:all": "npm install && cd client && npm install && cd ../node-services && npm install",
+    "build": "cd client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vet",
+    "pet",
+    "health",
+    "django",
+    "react",
+    "nodejs"
+  ],
+  "author": "VetCard Team",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
