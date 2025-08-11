@@ -25,6 +25,14 @@ jobs:
         cd client
         npm ci
         
+    - name: Check public folder
+      run: |
+        cd client
+        echo "=== Public folder contents ==="
+        ls -la public/
+        echo "=== Index.html content ==="
+        cat public/index.html
+        
     - name: Build React app
       run: |
         cd client
