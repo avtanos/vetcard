@@ -30,6 +30,13 @@ jobs:
         cd client
         npm run build
         
+    - name: List build directory
+      run: |
+        cd client
+        ls -la build/
+        echo "--- Contents of public folder ---"
+        ls -la public/
+        
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
