@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { useLanguage } from '../context/LanguageContext';
-import LoadingSpinner from '../components/LoadingSpinner';
+import './Assistant.css';
 import './Assistant.css';
 
 const Assistant = () => {

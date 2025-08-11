@@ -97,7 +97,7 @@ const Partners = () => {
       setPartners(mockPartners);
       setLoading(false);
     }, 1000);
-  }, []);
+  }, [mockPartners]);
 
   const filteredPartners = partners.filter(partner => {
     const matchesSearch = partner.name.toLowerCase().includes(searchQuery.toLowerCase()) ||

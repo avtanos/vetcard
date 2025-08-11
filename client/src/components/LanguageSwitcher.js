@@ -12,11 +12,11 @@ const LanguageSwitcher = () => {
     en: 'English'
   };
 
-  const languageFlags = {
-    ru: '🇷🇺',
-    ky: '🇰🇬',
-    en: '🇺🇸'
-  };
+  // const languageFlags = {
+  //   ru: '🇷🇺',
+  //   ky: '🇰🇬',
+  //   en: '🇺🇸'
+  // };
 
   const handleLanguageChange = (language) => {
     changeLanguage(language);

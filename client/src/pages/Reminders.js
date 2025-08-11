@@ -80,7 +80,7 @@ const Reminders = () => {
       setReminders(mockReminders);
       setLoading(false);
     }, 1000);
-  }, []);
+  }, [mockReminders]);
 
   const getTypeIcon = (type) => {
     const reminderType = reminderTypes.find(t => t.value === type);

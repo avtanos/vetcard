@@ -115,7 +115,7 @@ const PartnerRegisterForm = ({ onClose, onSwitchToLogin }) => {
     
     if (!formData.phone.trim()) {
       newErrors.phone = `${t('phone')} ${t('required')}`;
-    } else if (!/^[\+]?[0-9\s\-\(\)]{10,}$/.test(formData.phone)) {
+    } else if (!/^[\+]?[0-9\s\-()]{10,}$/.test(formData.phone)) {
       newErrors.phone = t('invalidPhone');
     }
     
@@ -433,7 +433,7 @@ const PartnerRegisterForm = ({ onClose, onSwitchToLogin }) => {
             className="submit-btn"
             disabled={loading}
           >
-            {loading ? t('registering') : t('register')}
+                            {loading ? t('registering') : t('registerBtn')}
           </button>
           
           <button
@@ -441,7 +441,7 @@ const PartnerRegisterForm = ({ onClose, onSwitchToLogin }) => {
             className="switch-btn"
             onClick={onSwitchToLogin}
           >
-            {t('alreadyHaveAccount')} {t('login')}
+                            {t('alreadyHaveAccount')} {t('loginBtn')}
           </button>
         </div>
       </form>

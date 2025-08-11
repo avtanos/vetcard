@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
 import { useLanguage } from '../context/LanguageContext';
-import LoadingSpinner from '../components/LoadingSpinner';
 import './Profile.css';
 
 const Profile = () => {
-  const { user, token } = useAuth();
+  const { user } = useAuth();
   const { t } = useLanguage();
   const [loading, setLoading] = useState(false);
   const [profileData, setProfileData] = useState({

@@ -93,7 +93,7 @@ const translations = {
     surgery: 'Хирургия',
     vaccination: 'Вакцинация',
     diagnostics: 'Диагностика',
-    grooming: 'Груминг',
+    groomingService: 'Груминг',
     food: 'Корма',
     accessories: 'Аксессуары',
     toys: 'Игрушки',
@@ -146,9 +146,9 @@ const translations = {
     loginError: 'Ошибка входа. Проверьте ваши данные.',
     
     // Кнопки
-    register: 'Зарегистрироваться',
+    registerBtn: 'Зарегистрироваться',
     registering: 'Регистрация...',
-    login: 'Войти',
+    loginBtn: 'Войти',
     loggingIn: 'Вход...',
     alreadyHaveAccount: 'Уже есть аккаунт?',
     createAccount: 'Создать аккаунт',
@@ -181,8 +181,8 @@ const translations = {
     articles: 'Маалыматтар',
     products: 'Мамлекеттер',
     profile: 'Профиль',
-    login: 'Кирүү',
-    register: 'Катталуу',
+    loginBtn: 'Кирүү',
+    registerBtn: 'Катталуу',
     logout: 'Чыгуу',
     
     // Главная страница
@@ -236,7 +236,7 @@ const translations = {
     surgery: 'Хирургия',
     vaccination: 'Вакцинация',
     diagnostics: 'Диагностика',
-    grooming: 'Груминг',
+    groomingService: 'Груминг',
     food: 'Азык-түлүк',
     accessories: 'Аксессуарлар',
     toys: 'Оюнчуктар',
@@ -324,8 +324,8 @@ const translations = {
     articles: 'Articles',
     products: 'Products',
     profile: 'Profile',
-    login: 'Login',
-    register: 'Register',
+    loginBtn: 'Login',
+    registerBtn: 'Register',
     logout: 'Logout',
     
     // Home page
@@ -379,7 +379,7 @@ const translations = {
     surgery: 'Surgery',
     vaccination: 'Vaccination',
     diagnostics: 'Diagnostics',
-    grooming: 'Grooming',
+    groomingService: 'Grooming',
     food: 'Pet Food',
     accessories: 'Accessories',
     toys: 'Toys',
@@ -432,9 +432,9 @@ const translations = {
     loginError: 'Login error. Check your data.',
     
     // Buttons
-    register: 'Register',
+    registerBtn: 'Register',
     registering: 'Registering...',
-    login: 'Login',
+    loginBtn: 'Login',
     loggingIn: 'Logging in...',
     alreadyHaveAccount: 'Already have an account?',
     createAccount: 'Create Account',

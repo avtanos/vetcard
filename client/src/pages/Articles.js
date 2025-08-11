@@ -107,7 +107,7 @@ const Articles = () => {
       setArticles(mockArticles);
       setLoading(false);
     }, 1000);
-  }, []);
+  }, [mockArticles]);
 
   const filteredArticles = articles.filter(article => {
     const matchesCategory = selectedCategory === 'all' || article.category === selectedCategory;

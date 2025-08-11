@@ -155,7 +155,7 @@ const Products = () => {
       setProducts(mockProducts);
       setLoading(false);
     }, 1000);
-  }, []);
+  }, [mockProducts]);
 
   const filteredProducts = products.filter(product => {
     const matchesCategory = selectedCategory === 'all' || product.category === selectedCategory;

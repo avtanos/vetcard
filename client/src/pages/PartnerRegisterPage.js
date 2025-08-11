@@ -7,7 +7,6 @@ import './PartnerRegisterPage.css';
 const PartnerRegisterPage = () => {
   const navigate = useNavigate();
   const { t } = useLanguage();
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleClose = () => {
     navigate('/');

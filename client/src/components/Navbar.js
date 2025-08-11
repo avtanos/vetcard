@@ -6,7 +6,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 import './Navbar.css';
 
 const Navbar = ({ onAuthClick }) => {
-  const { user, isAuthenticated, logout } = useAuth();
+  const { user, logout } = useAuth();
   const { t } = useLanguage();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isUserMenuOpen, setIsUserMenuOpen] = useState(false);
@@ -165,7 +165,7 @@ const Navbar = ({ onAuthClick }) => {
               onClick={onAuthClick}
             >
               <span className="auth-icon">🔐</span>
-              <span className="auth-text">{t('login')}</span>
+                              <span className="auth-text">{t('loginBtn')}</span>
             </button>
           )}
         </div>

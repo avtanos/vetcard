@@ -31,20 +31,19 @@ const PrivateRoute = ({ children }) => {
 };
 
 // Компонент для публичных маршрутов (только для неавторизованных)
-const PublicRoute = ({ children }) => {
-  const { user, loading } = useAuth();
-  
-  if (loading) {
-    return (
-      <LoadingSpinner />
-    );
-  }
-  
-  return !user ? children : <Navigate to="/" />;
-};
+// const PublicRoute = ({ children }) => {
+//   const { user, loading } = useAuth();
+//   
+//   if (loading) {
+//     return (
+//       <LoadingSpinner />
+//     );
+//   }
+//   
+//   return !user ? children : <Navigate to="/" />;
+// };
 
 const AppContent = () => {
-  const { isAuthenticated } = useAuth();
   const [showAuthModal, setShowAuthModal] = useState(false);
 
   const handleAuthClick = () => {
