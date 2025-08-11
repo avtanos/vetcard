@@ -1,6 +1,6 @@
 .login-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,8 +74,8 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #00A3CC;
+  box-shadow: 0 0 0 3px rgba(0, 163, 204, 0.1);
 }
 
 .form-group input:disabled {
@@ -110,7 +110,7 @@
 }
 
 .link {
-  color: #667eea;
+  color: #00A3CC;
   text-decoration: none;
   transition: color 0.3s ease;
 }

@@ -73,8 +73,8 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #00A3CC;
+  box-shadow: 0 0 0 3px rgba(0, 163, 204, 0.1);
 }
 
 .form-group input.error,

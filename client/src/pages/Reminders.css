@@ -17,7 +17,7 @@
   font-size: 2.5rem;
   color: #2c3e50;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #00A3CC 0%, #0088AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -31,7 +31,7 @@
 }
 
 .add-reminder-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -40,12 +40,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .add-reminder-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .add-reminder-form {
@@ -99,8 +99,8 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #00A3CC;
+  box-shadow: 0 0 0 3px rgba(0, 163, 204, 0.1);
 }
 
 .form-group textarea {
@@ -117,7 +117,7 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 0.875rem 2rem;
@@ -126,18 +126,18 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #00A3CC;
+  border: 2px solid #00A3CC;
   padding: 0.875rem 2rem;
   border-radius: 10px;
   font-size: 1rem;
@@ -147,7 +147,7 @@
 }
 
 .btn-secondary:hover {
-  background: #667eea;
+  background: #00A3CC;
   color: white;
   transform: translateY(-2px);
 }
@@ -178,7 +178,7 @@
   display: block;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #00A3CC;
   margin-bottom: 0.5rem;
 }
 
@@ -243,7 +243,7 @@
 }
 
 .reminder-date {
-  color: #667eea;
+  color: #00A3CC;
   font-size: 0.9rem;
   font-weight: 500;
 }
@@ -333,7 +333,7 @@
 }
 
 .add-first-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -342,12 +342,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .add-first-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .loading-spinner {
@@ -362,7 +362,7 @@
   width: 40px;
   height: 40px;
   border: 4px solid #f3f3f3;
-  border-top: 4px solid #667eea;
+  border-top: 4px solid #00A3CC;
   border-radius: 50%;
   animation: spin 1s linear infinite;
   margin-bottom: 1rem;

@@ -26,7 +26,7 @@
 .dog-body {
   width: 40px;
   height: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #00A3CC 0%, #0088AA 100%);
   border-radius: 20px;
   position: absolute;
   top: 10px;
@@ -37,7 +37,7 @@
 .dog-head {
   width: 25px;
   height: 25px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #00A3CC 0%, #0088AA 100%);
   border-radius: 50%;
   position: absolute;
   top: 5px;
@@ -48,7 +48,7 @@
 .dog-ear {
   width: 8px;
   height: 12px;
-  background: #764ba2;
+  background: #0088AA;
   border-radius: 50% 50% 0 0;
   position: absolute;
   top: 2px;
@@ -69,7 +69,7 @@
 .dog-leg {
   width: 4px;
   height: 12px;
-  background: #667eea;
+  background: #00A3CC;
   border-radius: 2px;
   position: absolute;
   bottom: -8px;
@@ -99,7 +99,7 @@
 .dog-tail {
   width: 15px;
   height: 4px;
-  background: #764ba2;
+  background: #0088AA;
   border-radius: 2px;
   position: absolute;
   top: 15px;

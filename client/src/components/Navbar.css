@@ -31,7 +31,7 @@
 
 .navbar-brand:hover {
   transform: translateY(-2px);
-  color: #667eea;
+  color: #00A3CC;
 }
 
 .brand-icon {
@@ -42,17 +42,17 @@
 
 .paw-print {
   font-size: 2rem;
-  color: #667eea;
+  color: #00A3CC;
   transition: all 0.3s ease;
 }
 
 .navbar-brand:hover .paw-print {
   transform: scale(1.1);
-  color: #764ba2;
+  color: #0088AA;
 }
 
 .brand-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -87,7 +87,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   transition: left 0.3s ease;
   z-index: -1;
 }
@@ -99,13 +99,13 @@
 .nav-link:hover {
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .nav-link.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .nav-icon {
@@ -129,7 +129,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -137,12 +137,12 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .auth-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .auth-icon {
@@ -172,15 +172,15 @@
 }
 
 .user-button:hover {
-  border-color: #667eea;
+  border-color: #00A3CC;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.2);
 }
 
 .user-avatar {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -275,7 +275,7 @@
 
 .dropdown-item:hover {
   background: #f8f9fa;
-  color: #667eea;
+  color: #00A3CC;
 }
 
 .dropdown-icon {
@@ -332,7 +332,7 @@
 
 .mobile-nav-link:hover,
 .mobile-nav-link.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
 }
 
@@ -437,7 +437,7 @@
   
   .dropdown-item:hover {
     background: #333;
-    color: #667eea;
+    color: #00A3CC;
   }
   
   .mobile-menu {

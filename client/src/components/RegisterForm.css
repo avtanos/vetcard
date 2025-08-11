@@ -72,9 +72,9 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #00A3CC;
   background: white;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(0, 163, 204, 0.1);
 }
 
 .form-group input.error {
@@ -98,7 +98,7 @@
   border-radius: 8px;
   padding: 1rem;
   margin: 1rem 0;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #00A3CC;
 }
 
 .password-requirements h4 {
@@ -170,27 +170,27 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #00A3CC 0%, #0088AA 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #00A3CC;
 }
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 163, 204, 0.4);
 }
 
 .btn-outline {
   background: transparent;
-  color: #667eea;
-  border-color: #667eea;
+  color: #00A3CC;
+  border-color: #00A3CC;
 }
 
 .btn-outline:hover:not(:disabled) {
-  background: #667eea;
+  background: #00A3CC;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 5px 15px rgba(0, 163, 204, 0.4);
 }
 
 .btn-partner {

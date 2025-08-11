@@ -13,7 +13,7 @@
   font-size: 2.5rem;
   color: #2c3e50;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -72,7 +72,7 @@
 }
 
 .edit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -81,12 +81,12 @@
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .edit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .avatar-section {
@@ -105,12 +105,12 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 163, 204, 0.3);
 }
 
 .avatar img {
@@ -180,8 +180,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #00A3CC;
+  box-shadow: 0 0 0 3px rgba(0, 163, 204, 0.1);
 }
 
 .form-group input:disabled,
@@ -207,7 +207,7 @@
 
 .save-btn,
 .change-password-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -216,13 +216,13 @@
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.3);
 }
 
 .save-btn:hover:not(:disabled),
 .change-password-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 20px rgba(0, 163, 204, 0.4);
 }
 
 .save-btn:disabled,
@@ -305,7 +305,7 @@
 }
 
 input:checked + .toggle-slider {
-  background-color: #667eea;
+  background-color: #00A3CC;
 }
 
 input:checked + .toggle-slider:before {
@@ -319,18 +319,18 @@ input:checked + .toggle-slider:before {
 }
 
 .stat-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border-radius: 15px;
   padding: 2rem;
   text-align: center;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 20px rgba(0, 163, 204, 0.3);
 }
 
 .stat-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 163, 204, 0.4);
 }
 
 .stat-icon {

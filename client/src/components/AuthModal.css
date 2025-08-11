@@ -48,7 +48,7 @@
 }
 
 .auth-modal-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   padding: 2rem 2rem 1.5rem;
   border-radius: 24px 24px 0 0;
@@ -143,9 +143,9 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #00A3CC;
   background: white;
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 4px rgba(0, 163, 204, 0.1);
 }
 
 .form-group input.error {
@@ -172,7 +172,7 @@
   border-radius: 8px;
   padding: 1rem;
   margin-top: 0.5rem;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #00A3CC;
 }
 
 .password-requirements h4 {
@@ -202,7 +202,7 @@
 }
 
 .auth-submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -211,7 +211,7 @@
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 25px rgba(0, 163, 204, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -233,7 +233,7 @@
 
 .auth-submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 35px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 12px 35px rgba(0, 163, 204, 0.4);
 }
 
 .auth-submit-btn:disabled {
@@ -281,7 +281,7 @@
 .auth-switch-btn {
   background: none;
   border: none;
-  color: #667eea;
+  color: #00A3CC;
   font-weight: 600;
   cursor: pointer;
   text-decoration: underline;
@@ -309,7 +309,7 @@
 }
 
 .auth-footer a {
-  color: #667eea;
+  color: #00A3CC;
   text-decoration: none;
   font-weight: 500;
 }
@@ -399,7 +399,7 @@
   }
 
   .auth-modal-header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   }
 
   .form-group label {
@@ -422,7 +422,7 @@
 
   .password-requirements {
     background: #404040;
-    border-color: #667eea;
+    border-color: #00A3CC;
   }
 
   .password-requirements h4 {

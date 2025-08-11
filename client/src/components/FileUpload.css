@@ -15,12 +15,12 @@
 }
 
 .file-upload-area:hover {
-  border-color: #667eea;
+  border-color: #00A3CC;
   background: #f8f9ff;
 }
 
 .file-upload-area.drag-active {
-  border-color: #667eea;
+  border-color: #00A3CC;
   background: #f0f2ff;
   transform: scale(1.02);
 }

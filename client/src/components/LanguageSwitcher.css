@@ -21,9 +21,9 @@
 }
 
 .language-button:hover {
-  border-color: #667eea;
+  border-color: #00A3CC;
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 15px rgba(0, 163, 204, 0.2);
 }
 
 .language-name {
@@ -84,11 +84,11 @@
 
 .language-option:hover {
   background: #f8f9fa;
-  color: #667eea;
+  color: #00A3CC;
 }
 
 .language-option.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
   color: white;
 }
 
@@ -135,7 +135,7 @@
   }
   
   .language-button:hover {
-    border-color: #667eea;
+    border-color: #00A3CC;
   }
   
   .language-dropdown {
@@ -150,11 +150,11 @@
   
   .language-option:hover {
     background: #333;
-    color: #667eea;
+    color: #00A3CC;
   }
   
   .language-option.active {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00A3CC 0%, #0088AA 100%);
     color: white;
   }
 } 
