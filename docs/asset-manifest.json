@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vetcard/static/css/main.6e85291f.css",
+    "main.js": "/vetcard/static/js/main.35e38882.js",
+    "static/js/488.5a80db86.chunk.js": "/vetcard/static/js/488.5a80db86.chunk.js",
+    "service-worker.js": "/vetcard/service-worker.js",
+    "index.html": "/vetcard/index.html",
+    "main.6e85291f.css.map": "/vetcard/static/css/main.6e85291f.css.map",
+    "main.35e38882.js.map": "/vetcard/static/js/main.35e38882.js.map",
+    "488.5a80db86.chunk.js.map": "/vetcard/static/js/488.5a80db86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e85291f.css",
+    "static/js/main.35e38882.js"
+  ]
+}
