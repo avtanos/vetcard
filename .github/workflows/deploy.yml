@@ -36,3 +36,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./client/build
         cname: avtanos.github.io
+        force_orphan: true
