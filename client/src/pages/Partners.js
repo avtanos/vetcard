@@ -11,94 +11,95 @@ const Partners = () => {
   const [selectedType, setSelectedType] = useState('all');
 
   // Кыргызстанские данные партнеров
-  const mockPartners = [
-    {
-      id: 1,
-      name: 'Ветеринарная клиника "Добрый доктор"',
-      type: 'clinic',
-      description: 'Современная ветеринарная клиника с полным спектром услуг для домашних животных. Опытные врачи, современное оборудование.',
-      address: 'ул. Советская, 123, Бишкек',
-      phone: '+996 (555) 123-456',
-      workingHours: 'Пн-Пт 9:00-18:00, Сб 10:00-16:00',
-      distance: '2.3 км',
-      services: ['therapy', 'surgery', 'vaccination', 'diagnostics'],
-      rating: 4.8,
-      reviews: 156
-    },
-    {
-      id: 2,
-      name: 'Зоомагазин "Питомец"',
-      type: 'shop',
-      description: 'Большой выбор кормов, игрушек и аксессуаров для домашних животных. Консультации по уходу.',
-      address: 'ул. Чуй, 45, Бишкек',
-      phone: '+996 (555) 234-567',
-      workingHours: 'Ежедневно 8:00-20:00',
-      distance: '1.8 км',
-      services: ['food', 'accessories', 'toys', 'vitamins'],
-      rating: 4.6,
-      reviews: 89
-    },
-    {
-      id: 3,
-      name: 'Груминг-салон "Красавчик"',
-      type: 'grooming',
-      description: 'Профессиональный груминг для собак и кошек. Стрижка, мытье, обработка когтей.',
-      address: 'ул. Ибраимова, 78, Бишкек',
-      phone: '+996 (555) 345-678',
-      workingHours: 'Вт-Вс 10:00-19:00',
-      distance: '3.1 км',
-      services: ['grooming', 'accessories'],
-      rating: 4.9,
-      reviews: 203
-    },
-    {
-      id: 4,
-      name: 'Ветеринарная клиника "Айболит"',
-      type: 'clinic',
-      description: 'Специализированная клиника для экзотических животных и птиц. Уникальные услуги.',
-      address: 'ул. Токтогула, 56, Бишкек',
-      phone: '+996 (555) 456-789',
-      workingHours: 'Пн-Сб 8:00-17:00',
-      distance: '4.2 км',
-      services: ['therapy', 'diagnostics', 'emergency'],
-      rating: 4.7,
-      reviews: 67
-    },
-    {
-      id: 5,
-      name: 'Зоомагазин "Дружок"',
-      type: 'shop',
-      description: 'Семейный зоомагазин с широким ассортиментом товаров для всех видов домашних животных.',
-      address: 'ул. Московская, 234, Бишкек',
-      phone: '+996 (555) 567-890',
-      workingHours: 'Ежедневно 9:00-21:00',
-      distance: '2.7 км',
-      services: ['food', 'toys', 'accessories', 'vitamins'],
-      rating: 4.5,
-      reviews: 134
-    },
-    {
-      id: 6,
-      name: 'Груминг-салон "Элит"',
-      type: 'grooming',
-      description: 'Премиум груминг-салон с использованием профессиональной косметики и оборудования.',
-      address: 'ул. Ахунбаева, 89, Бишкек',
-      phone: '+996 (555) 678-901',
-      workingHours: 'Ср-Вс 11:00-20:00',
-      distance: '1.5 км',
-      services: ['grooming', 'accessories'],
-      rating: 4.8,
-      reviews: 178
-    }
-  ];
 
   useEffect(() => {
+    const mockPartners = [
+      {
+        id: 1,
+        name: 'Ветеринарная клиника "Добрый доктор"',
+        type: 'clinic',
+        description: 'Современная ветеринарная клиника с полным спектром услуг для домашних животных. Опытные врачи, современное оборудование.',
+        address: 'ул. Советская, 123, Бишкек',
+        phone: '+996 (555) 123-456',
+        workingHours: 'Пн-Пт 9:00-18:00, Сб 10:00-16:00',
+        distance: '2.3 км',
+        services: ['therapy', 'surgery', 'vaccination', 'diagnostics'],
+        rating: 4.8,
+        reviews: 156
+      },
+      {
+        id: 2,
+        name: 'Зоомагазин "Питомец"',
+        type: 'shop',
+        description: 'Большой выбор кормов, игрушек и аксессуаров для домашних животных. Консультации по уходу.',
+        address: 'ул. Чуй, 45, Бишкек',
+        phone: '+996 (555) 234-567',
+        workingHours: 'Ежедневно 8:00-20:00',
+        distance: '1.8 км',
+        services: ['food', 'accessories', 'toys', 'vitamins'],
+        rating: 4.6,
+        reviews: 89
+      },
+      {
+        id: 3,
+        name: 'Груминг-салон "Красавчик"',
+        type: 'grooming',
+        description: 'Профессиональный груминг для собак и кошек. Стрижка, мытье, обработка когтей.',
+        address: 'ул. Ибраимова, 78, Бишкек',
+        phone: '+996 (555) 345-678',
+        workingHours: 'Вт-Вс 10:00-19:00',
+        distance: '3.1 км',
+        services: ['grooming', 'accessories'],
+        rating: 4.9,
+        reviews: 203
+      },
+      {
+        id: 4,
+        name: 'Ветеринарная клиника "Айболит"',
+        type: 'clinic',
+        description: 'Специализированная клиника для экзотических животных и птиц. Уникальные услуги.',
+        address: 'ул. Токтогула, 56, Бишкек',
+        phone: '+996 (555) 456-789',
+        workingHours: 'Пн-Сб 8:00-17:00',
+        distance: '4.2 км',
+        services: ['therapy', 'diagnostics', 'emergency'],
+        rating: 4.7,
+        reviews: 67
+      },
+      {
+        id: 5,
+        name: 'Зоомагазин "Дружок"',
+        type: 'shop',
+        description: 'Семейный зоомагазин с широким ассортиментом товаров для всех видов домашних животных.',
+        address: 'ул. Московская, 234, Бишкек',
+        phone: '+996 (555) 567-890',
+        workingHours: 'Ежедневно 9:00-21:00',
+        distance: '2.7 км',
+        services: ['food', 'toys', 'accessories', 'vitamins'],
+        rating: 4.5,
+        reviews: 134
+      },
+      {
+        id: 6,
+        name: 'Груминг-салон "Элит"',
+        type: 'grooming',
+        description: 'Премиум груминг-салон с использованием профессиональной косметики и оборудования.',
+        address: 'ул. Ахунбаева, 89, Бишкек',
+        phone: '+996 (555) 678-901',
+        workingHours: 'Ср-Вс 11:00-20:00',
+        distance: '1.5 км',
+        services: ['grooming', 'accessories'],
+        rating: 4.8,
+        reviews: 178
+      }
+    ];
+
     // Имитация загрузки данных
     setTimeout(() => {
       setPartners(mockPartners);
       setLoading(false);
     }, 1000);
-  }, [mockPartners]);
+  }, []);
 
   const filteredPartners = partners.filter(partner => {
     const matchesSearch = partner.name.toLowerCase().includes(searchQuery.toLowerCase()) ||

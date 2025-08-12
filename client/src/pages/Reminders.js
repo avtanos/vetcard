@@ -17,50 +17,6 @@ const Reminders = () => {
     description: ''
   });
 
-  // Моковые данные напоминаний
-  const mockReminders = [
-    {
-      id: 1,
-      title: 'Вакцинация от бешенства',
-      petName: 'Бобик',
-      date: '2024-02-15',
-      time: '10:00',
-      type: 'vaccination',
-      status: 'planned',
-      description: 'Ежегодная вакцинация от бешенства'
-    },
-    {
-      id: 2,
-      title: 'Стрижка когтей',
-      petName: 'Мурзик',
-      date: '2024-02-10',
-      time: '14:30',
-      type: 'grooming',
-      status: 'done',
-      description: 'Подстричь когти'
-    },
-    {
-      id: 3,
-      title: 'Проверка здоровья',
-      petName: 'Бобик',
-      date: '2024-02-20',
-      time: '11:00',
-      type: 'checkup',
-      status: 'planned',
-      description: 'Плановый осмотр у ветеринара'
-    },
-    {
-      id: 4,
-      title: 'Покупка корма',
-      petName: 'Мурзик',
-      date: '2024-02-08',
-      time: '16:00',
-      type: 'shopping',
-      status: 'done',
-      description: 'Купить корм для кошек'
-    }
-  ];
-
   const reminderTypes = [
     { value: 'vaccination', label: 'Вакцинация', icon: '💉', color: '#e74c3c' },
     { value: 'checkup', label: 'Осмотр', icon: '🏥', color: '#3498db' },
@@ -76,11 +32,54 @@ const Reminders = () => {
   ];
 
   useEffect(() => {
+    const mockReminders = [
+      {
+        id: 1,
+        title: 'Вакцинация от бешенства',
+        petName: 'Бобик',
+        date: '2024-02-15',
+        time: '10:00',
+        type: 'vaccination',
+        status: 'planned',
+        description: 'Ежегодная вакцинация от бешенства'
+      },
+      {
+        id: 2,
+        title: 'Стрижка когтей',
+        petName: 'Мурзик',
+        date: '2024-02-10',
+        time: '14:30',
+        type: 'grooming',
+        status: 'done',
+        description: 'Подстричь когти'
+      },
+      {
+        id: 3,
+        title: 'Проверка здоровья',
+        petName: 'Бобик',
+        date: '2024-02-20',
+        time: '11:00',
+        type: 'checkup',
+        status: 'planned',
+        description: 'Плановый осмотр у ветеринара'
+      },
+      {
+        id: 4,
+        title: 'Покупка корма',
+        petName: 'Мурзик',
+        date: '2024-02-08',
+        time: '16:00',
+        type: 'shopping',
+        status: 'done',
+        description: 'Купить корм для кошек'
+      }
+    ];
+
     setTimeout(() => {
       setReminders(mockReminders);
       setLoading(false);
     }, 1000);
-  }, [mockReminders]);
+  }, []);
 
   const getTypeIcon = (type) => {
     const reminderType = reminderTypes.find(t => t.value === type);

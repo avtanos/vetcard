@@ -432,9 +432,7 @@ const translations = {
     loginError: 'Login error. Check your data.',
     
     // Buttons
-    registerBtn: 'Register',
     registering: 'Registering...',
-    loginBtn: 'Login',
     loggingIn: 'Logging in...',
     alreadyHaveAccount: 'Already have an account?',
     createAccount: 'Create Account',

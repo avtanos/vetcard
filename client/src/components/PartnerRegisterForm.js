@@ -115,7 +115,7 @@ const PartnerRegisterForm = ({ onClose, onSwitchToLogin }) => {
     
     if (!formData.phone.trim()) {
       newErrors.phone = `${t('phone')} ${t('required')}`;
-    } else if (!/^[\+]?[0-9\s\-()]{10,}$/.test(formData.phone)) {
+    } else if (!/^[+]?[0-9\s\-()]{10,}$/.test(formData.phone)) {
       newErrors.phone = t('invalidPhone');
     }
     
