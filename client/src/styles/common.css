@@ -46,7 +46,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(90deg, #dbeaee 0%, #eef2f3 100%);
+  background: linear-gradient(90deg, #fff 0%, rgba(0, 163, 204, 0.3) 100%) !important;
   color: var(--text-primary);
   line-height: 1.6;
 }
@@ -291,255 +291,17 @@ body {
   font-weight: 500;
 }
 
-/* Загрузка */
-.loading-spinner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
-  min-height: 300px;
-}
 
-.spinner {
-  width: 60px;
-  height: 60px;
-  position: relative;
-  margin-bottom: 1rem;
-}
 
-.dog-loader {
-  width: 60px;
-  height: 40px;
-  position: relative;
-  animation: dogRun 1.5s infinite;
-}
 
-.dog-body {
-  width: 40px;
-  height: 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 20px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  animation: dogBody 0.6s infinite alternate;
-}
 
-.dog-head {
-  width: 25px;
-  height: 25px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 50%;
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  animation: dogHead 0.6s infinite alternate;
-}
 
-.dog-ear {
-  width: 8px;
-  height: 12px;
-  background: #764ba2;
-  border-radius: 50% 50% 0 0;
-  position: absolute;
-  top: 2px;
-}
 
-.dog-ear.left {
-  left: 3px;
-  transform: rotate(-30deg);
-  animation: dogEarLeft 0.6s infinite alternate;
-}
 
-.dog-ear.right {
-  right: 3px;
-  transform: rotate(30deg);
-  animation: dogEarRight 0.6s infinite alternate;
-}
 
-.dog-leg {
-  width: 4px;
-  height: 12px;
-  background: #667eea;
-  border-radius: 2px;
-  position: absolute;
-  bottom: -8px;
-  animation: dogLeg 0.3s infinite alternate;
-}
 
-.dog-leg.front-left {
-  left: 8px;
-  animation-delay: 0s;
-}
 
-.dog-leg.front-right {
-  left: 16px;
-  animation-delay: 0.15s;
-}
 
-.dog-leg.back-left {
-  right: 16px;
-  animation-delay: 0.3s;
-}
-
-.dog-leg.back-right {
-  right: 8px;
-  animation-delay: 0.45s;
-}
-
-.dog-tail {
-  width: 15px;
-  height: 4px;
-  background: #764ba2;
-  border-radius: 2px;
-  position: absolute;
-  top: 15px;
-  right: 2px;
-  transform-origin: left center;
-  animation: dogTail 0.6s infinite alternate;
-}
-
-.dog-eye {
-  width: 3px;
-  height: 3px;
-  background: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 8px;
-}
-
-.dog-eye.left {
-  left: 8px;
-}
-
-.dog-eye.right {
-  right: 8px;
-}
-
-.dog-nose {
-  width: 2px;
-  height: 2px;
-  background: #333;
-  border-radius: 50%;
-  position: absolute;
-  top: 12px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-/* Анимации собачки */
-@keyframes dogRun {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(20px);
-  }
-}
-
-@keyframes dogBody {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  100% {
-    transform: translateY(-2px) rotate(2deg);
-  }
-}
-
-@keyframes dogHead {
-  0% {
-    transform: translateY(0) rotate(0deg);
-  }
-  100% {
-    transform: translateY(-1px) rotate(-2deg);
-  }
-}
-
-@keyframes dogEarLeft {
-  0% {
-    transform: rotate(-30deg);
-  }
-  100% {
-    transform: rotate(-45deg);
-  }
-}
-
-@keyframes dogEarRight {
-  0% {
-    transform: rotate(30deg);
-  }
-  100% {
-    transform: rotate(45deg);
-  }
-}
-
-@keyframes dogLeg {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-3px);
-  }
-}
-
-@keyframes dogTail {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(20deg);
-  }
-}
-
-/* Текст загрузки */
-.loading-text {
-  font-size: 1.1rem;
-  color: var(--text-secondary);
-  font-weight: 500;
-  text-align: center;
-  margin-top: 1rem;
-  animation: loadingPulse 1.5s infinite;
-}
-
-@keyframes loadingPulse {
-  0%, 100% {
-    opacity: 0.6;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-/* Дополнительные элементы */
-.loading-paws {
-  display: flex;
-  gap: 0.5rem;
-  margin-top: 1rem;
-}
-
-.loading-paw {
-  width: 8px;
-  height: 8px;
-  background: var(--primary-color);
-  border-radius: 50%;
-  animation: pawBounce 1s infinite;
-}
-
-.loading-paw:nth-child(1) { animation-delay: 0s; }
-.loading-paw:nth-child(2) { animation-delay: 0.2s; }
-.loading-paw:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes pawBounce {
-  0%, 100% {
-    transform: translateY(0);
-    opacity: 0.3;
-  }
-  50% {
-    transform: translateY(-10px);
-    opacity: 1;
-  }
-}
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -617,7 +379,7 @@ body {
 /* Темная тема */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--dark-color);
+    background: linear-gradient(90deg, #001A1F 0%, rgba(0, 163, 204, 0.2) 100%) !important;
   }
   
   .card,

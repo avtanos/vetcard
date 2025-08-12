@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import LoadingSpinner from '../components/LoadingSpinner';
 import './Partners.css';
 
 const Partners = () => {
@@ -135,10 +136,7 @@ const Partners = () => {
   if (loading) {
     return (
       <div className="partners-container">
-        <div className="loading-spinner">
-          <div className="spinner"></div>
-          <p>{t('loading')}</p>
-        </div>
+        <LoadingSpinner />
       </div>
     );
   }

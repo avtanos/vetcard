@@ -2,8 +2,8 @@
 
 /* Дополнительные стили для нового фона */
 body {
-  background-attachment: fixed;
-  background-size: cover;
+  background-attachment: fixed !important;
+  background-size: cover !important;
 }
 
 /* Улучшенные стили для карточек */
